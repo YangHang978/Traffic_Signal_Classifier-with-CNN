@@ -47,7 +47,7 @@ Training_Images
 
 这里用到的时是[LeNet-5](http://www.tensornews.cn/lenet/)模型。它是第一个成功应用于数字识别问题的卷积神经网络。LeNet-5模型结构图如下：
 
-![LeNet](lenet.png)
+![LeNet](/lenet.png)
 
 来源: http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf
 
@@ -119,4 +119,8 @@ Test_Images
 GT-final_test.csv文件是单独下载，包含测试集图片label信息
 
 ## 4.可视化
-- 可视化显示CNN神经网络不同层的输出
+可视化显示CNN神经网络不同层的输出
+第一层：
+![conv1](/conv1.jpg)
+第二层：
+![conv2](/conv2.jpg)
